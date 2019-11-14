@@ -1,4 +1,5 @@
 Github pages: <https://ucsb-cs56-f19.github.io/lab07-kalynklimek/>
+Running heroku app: <https://cs56-f19-lab07-kalynklimek.herokuapp.com/>
 
 A simple Spring Boot webapp using:
 * Thymeleaf templating
@@ -15,7 +16,7 @@ A simple Spring Boot webapp using:
     * For the application url, use <http://localhost:8080>
     * For the callback url, also use <http://localhost:8080>
     * Note that on localhost, you typically need use `http` not `https`
-     
+
 2.  You must then copy the file `localhost.json.SAMPLE` to the file `localhost.json`.
 
     * Note that you SHOULD NOT edit `localhost.json.SAMPLE` directly.
@@ -56,7 +57,7 @@ localhost.
     * For the application url, use <https://cs56-f19-lab06-githubid.herokuapp.com>
     * For the callback url, also use <https://cs56-f19-lab06-githubid.herokuapp.com>
     * Note that on Heroku, you typically need use `https` not `http`
-     
+
 2.  You must then copy the file `heroku.json.SAMPLE` to the file `heroku.json`.
 
     * Note that you SHOULD NOT edit `heroku.json.SAMPLE` directly.
@@ -84,7 +85,7 @@ localhost.
 
     Click "Reveal Config Vars".   You should see a configuration variable called `SPRING_APPLICATION_JSON` that contains
     the values that you entered for client id and client secret (i.e the contents of `heroku.json`).
-    
+
 
 5.  Now you are ready to do the steps you did in lab02 to connect your Heroku App to your Github repo, and deploy your app to Heroku and see it running.
 
@@ -106,4 +107,3 @@ with lab06, look online and see if the lab07 instructions are ready.
 | `mvn spring-boot:run` | to run the web app|
 | `./checkLocalhost.py` | to check the syntax of your `localhost.json` file |
 | `./setHerokuEnv.py` --app APPNAME` | to check the syntax of your `heroku.json` file  and set the configuration variables for Heroku app `APPNAME` (requires logging in to Heroku CLI first)|
-
