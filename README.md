@@ -2,6 +2,8 @@ Github pages: <https://ucsb-cs56-f19.github.io/lab07-kalynklimek/>
 
 Running heroku app: <https://cs56-f19-lab07-kalynklimek.herokuapp.com/>
 
+Travis-CI page: <https://travis-ci.org/ucsb-cs56-f19/lab07-kalynklimek>
+
 A simple Spring Boot webapp using:
 * Thymeleaf templating
 * Pulling in Bootstrap from CDN.
